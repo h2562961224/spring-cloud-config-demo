@@ -1,0 +1,13 @@
+server:
+  port: 8040
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/h2562961224/spring-cloud-demo    
+          search-paths: config-repo                            
+          username: h2562961224                                         
+          password: milk3620451                                         
